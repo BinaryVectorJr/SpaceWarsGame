@@ -130,3 +130,88 @@ System memory in use after: 109.4 MB.
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2844.
 Total: 3.190200 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.074700 ms MarkObjects: 1.640600 ms  DeleteObjects: 1.258900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 599.042619 seconds.
+  path: Assets/USER/Prefabs/GameManagerObj.prefab
+  artifactKey: Guid(3c45425bf0b09c646aa457d92bb9e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USER/Prefabs/GameManagerObj.prefab using Guid(3c45425bf0b09c646aa457d92bb9e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252112ad0edfacfc4785c3fde7f68f01') in 0.057971 seconds
+  Import took 0.061948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/USER/Models/SpaceGameModelSet.blend
+  artifactKey: Guid(9a1129e39079b0243b66085e92c56307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USER/Models/SpaceGameModelSet.blend using Guid(9a1129e39079b0243b66085e92c56307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9a1d5875456a982547ca7244f277c6') in 0.239760 seconds
+  Import took 0.242984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.966657 seconds.
+  path: Assets/USER/Scenes/MainMenu.unity
+  artifactKey: Guid(044c865f7dd3e644a82d389b9ae2b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USER/Scenes/MainMenu.unity using Guid(044c865f7dd3e644a82d389b9ae2b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f3f763c776b8953957f4252a95e8b7') in 0.002395 seconds
+  Import took 0.005780 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2355 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2928.
+Total: 3.158100 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.668200 ms  DeleteObjects: 1.190300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.416325 seconds.
+  path: Assets/USER/Scenes/Battlezone.unity
+  artifactKey: Guid(adb62cba402a9ac4ea75c4249d719072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USER/Scenes/Battlezone.unity using Guid(adb62cba402a9ac4ea75c4249d719072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f36e0bbec102046d83d0b17fd5689f1') in 0.029455 seconds
+  Import took 0.033659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.166389 seconds.
+  path: Assets/USER/Scenes/Battlezone.unity
+  artifactKey: Guid(adb62cba402a9ac4ea75c4249d719072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USER/Scenes/Battlezone.unity using Guid(adb62cba402a9ac4ea75c4249d719072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5310582e382889c3b128f512f4e5fb') in 0.002534 seconds
+  Import took 0.005920 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2355 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 3.785500 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.105700 ms MarkObjects: 2.019500 ms  DeleteObjects: 1.362100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
