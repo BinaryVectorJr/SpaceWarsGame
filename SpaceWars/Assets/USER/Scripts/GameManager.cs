@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public SceneDataSettings u_DataSettings = new SceneDataSettings();
     public string u_DataPath;
 
+    public GameManagerEvents events = new GameManagerEvents();
+
     private void Awake()
     {
         SetupSingleton();
