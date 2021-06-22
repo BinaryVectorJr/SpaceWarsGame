@@ -14,7 +14,9 @@ public class GameManager : MonoBehaviour
     public SceneDataSettings u_DataSettings = new SceneDataSettings();
     public string u_DataPath;
 
-    public GameManagerEvents events = new GameManagerEvents();
+    public GameManagerEvents _events = new GameManagerEvents();
+
+    public LevelManager _levels;
 
     private void Awake()
     {

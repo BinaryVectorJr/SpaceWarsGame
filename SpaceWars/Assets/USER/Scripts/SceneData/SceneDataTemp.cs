@@ -17,7 +17,7 @@ public class SceneDataTemp
         set 
         { 
             _gameState = value;
-            GameManager.gameInstance.events.InvokeChangeMode(_gameState);
+            GameManager.gameInstance._events.InvokeChangeMode(_gameState);
         }
     }
 }

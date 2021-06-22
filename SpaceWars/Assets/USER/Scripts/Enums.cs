@@ -11,4 +11,10 @@ public class Enums
         Dead,
         Victory
     }
+
+    public enum Levels
+    {
+        Menu,
+        Battlezone
+    }
 }
