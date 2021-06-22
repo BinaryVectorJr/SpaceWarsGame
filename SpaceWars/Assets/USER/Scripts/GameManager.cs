@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    //DEMO COMMENT TO COMMIT BEFORE I DIVE INTO NETWORKING (22 June 2021)
+
     //Singleton - Allows us to access a monobehavior from anywhere in the game, and only one instance is called in the game, and it never gets destroyed.
     //Create an instance of ourselves
     public static GameManager gameInstance;
