@@ -100,17 +100,17 @@ MonoBehaviour:
   serverTickRate: 30
   serverBatching: 1
   serverBatchInterval: 0
-  offlineScene: Assets/USER/Scenes/MainMenu.unity
-  onlineScene: Assets/USER/Scenes/Battlezone.unity
+  offlineScene: 
+  onlineScene: 
   transport: {fileID: 1489591292}
   networkAddress: localhost
   maxConnections: 100
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 446692318636376202, guid: f63b8aca4aa2d1344bab4bb98e4c9c22, type: 3}
+  playerPrefab: {fileID: 4234031198175790540, guid: 13dd94ebcd887cc4ca0dd5c1683939b1, type: 3}
   autoCreatePlayer: 1
-  playerSpawnMethod: 0
+  playerSpawnMethod: 1
   spawnPrefabs: []
 --- !u!114 &1489591292
 MonoBehaviour:
