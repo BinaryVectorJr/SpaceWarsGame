@@ -44,26 +44,25 @@ public class UserPlayerController : Mirror.NetworkBehaviour
         if (!isLocalPlayer)
             return;
 
-            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
-                this.transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
-            }
+            this.transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
+        }
 
-            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-            {
-                this.transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
-            }
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        {
+            this.transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
+        }
 
-            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-            {
-                this.transform.Rotate(Vector3.up, -maxTurnSpeed);
-            }
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            this.transform.Rotate(Vector3.up, -maxTurnSpeed);
+        }
 
-            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-            {
-                this.transform.Rotate(Vector3.up, maxTurnSpeed);
-            }
-
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            this.transform.Rotate(Vector3.up, maxTurnSpeed);
+        }
     }
 }
 
