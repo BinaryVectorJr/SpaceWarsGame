@@ -108,7 +108,7 @@ MonoBehaviour:
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 4234031198175790540, guid: 13dd94ebcd887cc4ca0dd5c1683939b1, type: 3}
+  playerPrefab: {fileID: 0}
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs: []
@@ -227,7 +227,7 @@ MonoBehaviour:
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 4234031198175790540, guid: 13dd94ebcd887cc4ca0dd5c1683939b1, type: 3}
+  playerPrefab: {fileID: 6189139902473317673, guid: 0f19d847ad48f5c4ca428d2a94e87b1c, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs: []

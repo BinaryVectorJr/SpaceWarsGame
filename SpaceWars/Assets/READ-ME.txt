@@ -1,0 +1,11 @@
+////////////////////////// IMPORTANT INFO //////////////////////////
+
+
+Unity has deprecated its Networking tools for 2020 and above versions, hence I am using a user created and maintained asset called Mirror.
+Link (https://github.com/vis2k/Mirror)
+
+So far, I have not encountered any problems implementing the basic features needed to accomplish basic networking (apart from a few changes in the scripts here and there).
+Most of the references I have kept it direct rather than include the Mirror library directly (why? IDK, thought it would be easier for others to understand it later)
+
+But yeah, as of 21st July 2021 - I am able to spawn a host player and a client player, and movements can be done on both ends (since each player has Local Authority)
+and the positions and rotations update in both sides (screens?).
