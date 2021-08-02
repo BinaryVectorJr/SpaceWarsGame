@@ -20,10 +20,9 @@ public class PlayerModel : Mirror.NetworkBehaviour
 
     public Transform targetParent;
 
-    public void setupPlayerModel(PlayerSettings.playerTypes _playerType)
+    public void SetupPlayerModel(PlayerSettings.playerTypes _playerType)
     {
-        var _playerGO = Instantiate(playerModelsList.First(x => x.playerType == _playerType).playerPrefab);
-        _playerGO.transform.parent = targetParent;
+        var _playerGO = Instantiate(playerModelsList.First(x => x.playerType == _playerType).playerPrefab, targetParent, false);
 
         //FALLBACK CODE FOR SWITCH STATEMENT - USE THIS IF LINQ IS NOT WORKING PROPERLY, ESSENTIALLY THIS IS REDUNDANT CODE
         //switch (_playerType)
