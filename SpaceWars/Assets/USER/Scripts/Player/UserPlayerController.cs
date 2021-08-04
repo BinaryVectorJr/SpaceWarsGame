@@ -91,6 +91,20 @@ public class UserPlayerController : Mirror.NetworkBehaviour
             return;
 
         userPlayerMover.Movement();
+
+        //Gun
+
+        //Shoot
+        if(Input.GetKey(KeyCode.Mouse0))
+        {
+            //shoot projectile
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        //collision detected but does not show in visuals
+        Debug.Log(this.gameObject.transform.name + " hit");
     }
 }
 
